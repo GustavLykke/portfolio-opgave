@@ -3,4 +3,41 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
 	font-family: "Roboto", sans-serif;
+	
 }
+h1 {
+	text-align: center
+}
+h2 {
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 150px;
+}
+/* Flexbox style*/
+
+nav {
+	display: flex;
+	height: 60px;
+	align-items: center;
+	width: 100%;
+}
+
+nav a {
+	width: 25%;
+	background: #177D91;
+	text-align: center;
+	text-decoration: none;
+	color: #EDFF00;
+	padding: 20px;
+}
+nav a:hover {
+	background: #FFC400;
+}
+.mig {
+    display: block;
+   
+    margin: 0px 0px 0px 1000px;
+    width: 50%;
+}
+
+
